@@ -3,11 +3,14 @@
 username = "admin"
 password = "1234"
 
-usernameInput = input("Enter username: ")
-passwordInput = input("Enter username: ")
+
 
 for i in range(3):
-    print("Attempt", i)
+    print("Attempt", i + 1)
+    
+    usernameInput = input("Enter username: ")
+    passwordInput = input("Enter username: ")
+
     if usernameInput == username and passwordInput == password:
                 break
     
