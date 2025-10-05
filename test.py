@@ -16,6 +16,6 @@ for i in range(3):
     
 
 if i == 2:
-    print("Access denied")
+    print("Account locked")
 else:
-    print("Access granted") 
+    print("login successful") 
