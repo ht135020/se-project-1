@@ -9,7 +9,7 @@ for i in range(3):
     print("Attempt", i + 1)
     
     usernameInput = input("Enter username: ")
-    passwordInput = input("Enter username: ")
+    passwordInput = input("Enter password: ")
 
     if usernameInput == username and passwordInput == password:
                 break
